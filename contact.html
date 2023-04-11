@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Min andra hemsida</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Kroppen på min sida -->
     <header>
         <!-- Sidhuvud och navigation -->
         <h1>Min Hemsida</h1>
+    <nav>
         <a href="index.html">Startsida</a>
-        <a class="active" href="about.html">Om mig</a>
+        <a href="about.html">Om mig</a>
         <a href="hobbys.html">Mina hobbys</a>
-        <a href="contact.html">Kontakt</a>
+        <a class="active" href="contact.html">Kontakt</a>
+    </nav>
     </header>
     <main>
         <!-- Huvuvinnehåll på sidan -->
-        <p id="my-id">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus suscipit asperiores perspiciatis hic, consequatur, recusandae cumque dolorem possimus molestiae eum ea rerum natus ratione ut quibusdam quae quasi blanditiis.</p>
-        <p class="my-class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut explicabo corporis perferendis, quaerat neque, repellat architecto voluptatum et quo, velit accusantium repudiandae voluptatibus similique unde odio quod ullam! Est, corrupti?</p>
-        <p class="two-classes">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quos aliquam repellendus harum quas, expedita quae, ipsa ipsam placeat fugit ad nemo totam, aspernatur saepe. Sed autem ipsum odit! Perspiciatis?</p>
+        <h1>Kontakta mig</h1>
+        <form>
+            <label for="name">Namn:</label><br>
+            <input class="my-form" type="text" id="name" name="name"><br>
+
+            <labe for="email">Email:</labe><br>
+            <input class="my-form" type="email" id="email" name="email"><br>
+
+            <label for="message">Meddelande:</label><br>
+            <textarea class="my-form" id="message" name="message"></textarea><br> 
+
+            <input type="submit" value="Skicka">
+        </form>
     </main>
     <footer>
         <!-- Sidfot, copyright och annat -->
