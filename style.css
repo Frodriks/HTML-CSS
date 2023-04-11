@@ -21,15 +21,17 @@ body{
 
 .my-class {
     color: green;
-    padding-left: 10px;
 }
 #my-id {
     color: rgb(255, 0, 0);
-    padding-left: 10px;
 }
 .two-classes {
     color: blue;
-    padding-left: 10px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 header {
@@ -40,12 +42,13 @@ header {
 header h1 {
     font-family: verdana;
     font-size: 45px;
+    color: pink;
     margin: 0;
     margin-bottom: 10px;
 }
 
 main h1 {
-    padding-left: 10px;
+    margin-top: 20px;
 }
 
 header nav {
@@ -60,6 +63,49 @@ header nav a {
     font-weight: bold;
 }
 
+header nav a:hover {
+    color: #fff;
+}
+
+header nav a.active {
+    color: #FFF;
+}
+
 footer {
     background-color: darkolivegreen;
+    padding: 20px;
+    color: black;
+    font-family: verdana;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 5px;
+    text-align: center;
+}
+
+.my-form {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    color: black;
+    font-family: verdana;
+    line-height: 130%;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+main {
+    padding: 20 px;
+    font-family: verdana;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+img {
+    max-height: 400px;
 }
